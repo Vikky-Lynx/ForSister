@@ -224,8 +224,8 @@
 
     <div class="cake-container" id="cake-container">
         <div class="message" id="message">
-            <span>HAPPY BDAY</span>
-            <span>Sister!</span>
+            <span>HAPPY BDAY!</span>
+            <span>David!</span>
         </div>
         <img src="./assets/cake.webp" alt="cake" class="cake">
         <img src="./assets/candle.webp" alt="candle" class="candle" id="candle"> <!-- Изображение свечи -->
@@ -316,7 +316,7 @@
         }
 
         function animateMessage() {
-            const messageText = "HAPPY BDAY Sister!";
+            const messageText = "HAPPY BDAY David!";
             const letters = messageText.split('').map(letter => letter === ' ' ? '\u00A0' : letter);
             message.innerHTML = '';
 
@@ -339,7 +339,7 @@
 
         function showBirthdayMessage() {
             const birthdayMessage = document.getElementById('birthday-message');
-            birthdayMessage.innerHTML = "Пусть всё загаданное сбудется! <br> Ты самая лучшая! Люблю тебя моя сестра! ❤️❤️❤️<br> ❤️Будь счастлива, любима и здорова! Happy Birthday!";
+            birthdayMessage.innerHTML = "May all your wishes come true! Happy Birthday!";
             birthdayMessage.style.opacity = 1; // Убедитесь, что текст полностью виден
         }
 
